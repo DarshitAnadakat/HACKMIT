@@ -65,7 +65,7 @@ const ChatAssistant = () => {
   // For development, we're using a fixed value, but in production use environment variables properly
   const GEMINI_API_KEY = import.meta.env?.VITE_GEMINI_API_KEY || 
                          window.ENV_GEMINI_API_KEY || 
-                         "AIzaSyB3Uk-HYx2btx26MCxP9FMZF8Q26YarhNw"; // Replace with your actual API key for testing
+                         "; // 
   
   // Updated API URL - make sure this matches the correct Gemini API endpoint
   const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent";
